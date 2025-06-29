@@ -446,7 +446,7 @@ const SendSms = () => {
               disabled={loading}
               sx={{
               borderRadius: "3px",
-              textTransform: 'none',
+             // textTransform: 'none',
               textTransform:"uppercase",
               fontSize: 12,
               fontWeight:600,

@@ -1,0 +1,13 @@
+localStorage.setItem('userData', JSON.stringify({
+  tokens: {
+    access: {
+      token: "some_valid_token_here"
+    }
+  },
+  user: {
+    pin: "1234"
+  }
+}));
+
+
+localStorage.setItem('isLoggedIn', 'true');
