@@ -6,6 +6,7 @@ import { utilityPays } from '../hooks/hooks.jsx';
 import { Alert, Box, Button, Container, Dialog, DialogContent, Divider, IconButton, MenuItem, Snackbar, TextField, Typography } from '@mui/material';
 import { Close } from '@mui/icons-material';
 import { useNavigate } from 'react-router-dom';
+import faviconJpg from '../assets/favicon.jpg';
 
 const validationSchema = Yup.object({
     transid: Yup.string().required('Transaction ID is required'),
@@ -26,52 +27,52 @@ const validationSchema = Yup.object({
     {
       name: 'LUKU',
       code: 'LUKU',
-      image: require('../assets/images/luku.jpeg'),
+      image: faviconJpg,
     },
     {
       name: 'GEPG',
       code: 'GEPG',
-      image: require('../assets/images/gepg.jpeg'),
+      image: faviconJpg,
     },
     {
       name: 'TTCL',
       code: 'TTCL',
-      image: require('../assets/images/ttcl.png'),
+      image: faviconJpg,
     },
     {
       name: 'DSTV',
       code: 'DSTV',
-      image: require('../assets/images/dstv.png'),
+      image: faviconJpg,
     },
     {
       name: 'AZAMTV',
       code: 'AZAMTV',
-      image: require('../assets/images/azamtv.jpeg'),
+      image:faviconJpg,
     },
     {
       name: 'STARTIMES',
       code: 'STARTIMES',
-      image: require('../assets/images/startimes.jpeg'),
+      image: faviconJpg,
     },
     {
       name: 'ZUKU',
       code: 'ZUKU',
-      image: require('../assets/images/Zuku-logo.jpg'),
+      image: faviconJpg,
     },
     {
       name: 'SMILE',
       code: 'SMILE',
-      image: require('../assets/images/smile.png'),
+      image: faviconJpg,
     },
     {
       name: 'ZUKUFIBER',
       code: 'ZUKUFIBER',
-      image: require('../assets/images/zukufiber.png'),
+      image: faviconJpg,
     },
     {
       name: 'Airtime',
       code: 'TOP',
-      image: require('../assets/images/airtime.png'),
+      image: faviconJpg,
     },
   ];
 
